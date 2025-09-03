@@ -1270,6 +1270,76 @@
       ]
     },
     {
+      "name": "base-autocomplete-default",
+      "type": "registry:component",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "registry/default/components/base-autocomplete/default.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "registryDependencies": [
+        "https://reui.io/r/base-autocomplete.json"
+      ]
+    },
+    {
+      "name": "base-autocomplete-filled",
+      "type": "registry:component",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "registry/default/components/base-autocomplete/filled.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "registryDependencies": [
+        "https://reui.io/r/base-autocomplete.json"
+      ]
+    },
+    {
+      "name": "base-autocomplete-grouped",
+      "type": "registry:component",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "registry/default/components/base-autocomplete/grouped.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "registryDependencies": [
+        "https://reui.io/r/base-autocomplete.json"
+      ]
+    },
+    {
+      "name": "base-autocomplete-outline",
+      "type": "registry:component",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "registry/default/components/base-autocomplete/outline.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "registryDependencies": [
+        "https://reui.io/r/base-autocomplete.json"
+      ]
+    },
+    {
+      "name": "base-autocomplete-with-clear",
+      "type": "registry:component",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "registry/default/components/base-autocomplete/with-clear.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "registryDependencies": [
+        "https://reui.io/r/base-autocomplete.json"
+      ]
+    },
+    {
       "name": "base-avatar-badge",
       "type": "registry:component",
       "dependencies": [],
@@ -7049,6 +7119,19 @@
       "files": [
         {
           "path": "registry/default/ui/base-alert-dialog.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "base-autocomplete",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/base-autocomplete.tsx",
           "type": "registry:ui"
         }
       ]

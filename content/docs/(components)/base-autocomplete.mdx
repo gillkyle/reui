@@ -1,0 +1,133 @@
+---
+title: Base Autocomplete
+description: An input that suggests options as you type, built with Base UI components.
+component: true
+---
+
+<ExamplePreview path="base-autocomplete/default" />
+
+## Installation
+
+<Tabs defaultValue="cli">
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+  <CliCommands name="base-autocomplete" />
+</TabsContent>
+
+<TabsContent value="manual">
+<Steps>
+
+<Step>
+Install the following dependencies:
+
+```bash
+npm install @base-ui-components/react
+```
+
+</Step>
+
+<Step>
+Copy and paste the following code into your project's `components/ui/base-autocomplete.tsx` file.
+
+<ComponentPreview name="base-autocomplete" />
+
+</Step>
+
+### Update imports
+
+Update the import paths to match your project setup.
+
+</Steps>
+
+</TabsContent>
+
+</Tabs>
+
+## Examples
+
+### Default
+
+<ExamplePreview path="base-autocomplete/default" />
+
+### Outline
+
+<ExamplePreview path="base-autocomplete/outline" />
+
+### Filled
+
+<ExamplePreview path="base-autocomplete/filled" />
+
+### With Clear
+
+<ExamplePreview path="base-autocomplete/with-clear" />
+
+### Grouped
+
+<ExamplePreview path="base-autocomplete/grouped" />
+
+## API Reference
+
+### Autocomplete
+
+This component is based on the [Base UI Autocomplete](https://base-ui.com/react/components/autocomplete) primitive and includes the following custom props:
+
+| **Prop**  | **Type**                                                                | **Default**   | **Description**                               |
+| --------- | ----------------------------------------------------------------------- | ------------- | --------------------------------------------- |
+| `variant` | ~enum~ <PopoverInfo> "default" \| "outline" \| "filled" </PopoverInfo> | ~"default"~   | The visual style variant of the autocomplete |
+
+### AutocompleteInput
+
+The input element for typing in the autocomplete.
+
+### AutocompleteTrigger
+
+A button that can toggle the autocomplete popup.
+
+### AutocompleteClear
+
+A button that clears the current value.
+
+### AutocompleteIcon
+
+An icon element, typically used to show a search or dropdown icon.
+
+### AutocompletePopup
+
+The popup container that holds the list of options.
+
+### AutocompleteList
+
+The scrollable list container for the options.
+
+### AutocompleteItem
+
+An individual option in the list.
+
+### AutocompleteEmpty
+
+Content shown when no options match the input.
+
+### AutocompleteGroup
+
+Groups related options together.
+
+### AutocompleteGroupLabel
+
+A label for a group of options.
+
+### AutocompleteSeparator
+
+A visual separator between groups or sections.
+
+### AutocompleteValue
+
+Renders the current value of the autocomplete.
+
+## Credits
+
+- Built with [Base UI Autocomplete](https://base-ui.com/react/components/autocomplete).

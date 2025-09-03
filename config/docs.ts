@@ -579,6 +579,11 @@ export const docsConfig: DocsConfig = {
           new: true,
         },
         {
+          title: 'Autocomplete',
+          href: '/docs/base-autocomplete',
+          new: true,
+        },
+        {
           title: 'Alert Dialog',
           href: '/docs/base-alert-dialog',
           new: true,
